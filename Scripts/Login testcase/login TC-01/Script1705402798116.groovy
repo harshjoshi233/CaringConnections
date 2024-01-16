@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
+
+WebUI.setText(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/input_username'), 'harshjo2344@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/input_password'), 
+    'QmrIyMB454Sq0s0w1zzgnQ==')
+
+WebUI.click(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/button_Sign In'))
+
+WebUI.closeBrowser()
+

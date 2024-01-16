@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login test suit" time="11.529" tests="1" failures="0" errors="0">
+   <testsuite name="login test suit" tests="1" failures="0" errors="0" time="11.529" skipped="0" timestamp="16-01-2024T17:14:34" hostname="HarshJoshi - PSDLAP287" id="Test Suites/login test suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HarshJoshi\\git\\Caringdemo\\CaringConnections\\Reports\\20240116_171427\\login test suit\\20240116_171428"/>
+         <property name="logFiles" value="C:\\Users\\HarshJoshi\\git\\Caringdemo\\CaringConnections\\Reports\\20240116_171427\\login test suit\\20240116_171428\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HarshJoshi - PSDLAP287"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="356f2c7557348fa45a6eb03b0f99c244"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login testcase/login TC-01" time="11.342" classname="Test Cases/Login testcase/login TC-01" status="PASSED">
+         <system-out><![CDATA[16-01-2024T17:14:34 - [TEST_CASE][PASSED] - Test Cases/Login testcase/login TC-01: Test Cases/Login testcase/login TC-01
+
+16-01-2024T17:14:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-01-2024T17:14:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-01-2024T17:14:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2024T17:14:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-01-2024T17:14:36 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+16-01-2024T17:14:41 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+16-01-2024T17:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login testcase/Page_CaringConnections-v-1.17/input_username"), "harshjo2344@gmail.com"): Text 'harshjo2344@gmail.com' is set on object 'Object Repository/login testcase/Page_CaringConnections-v-1.17/input_username'
+
+16-01-2024T17:14:43 - [MESSAGE][PASSED] - Text 'harshjo2344@gmail.com' is set on object 'Object Repository/login testcase/Page_CaringConnections-v-1.17/input_username'
+
+16-01-2024T17:14:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login testcase/Page_CaringConnections-v-1.17/input_password"), "QmrIyMB454Sq0s0w1zzgnQ=="): Text ****** has been set on object 'Object Repository/login testcase/Page_CaringConnections-v-1.17/input_password'
+
+16-01-2024T17:14:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login testcase/Page_CaringConnections-v-1.17/input_password'
+
+16-01-2024T17:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login testcase/Page_CaringConnections-v-1.17/button_Sign In")): Object: 'Object Repository/login testcase/Page_CaringConnections-v-1.17/button_Sign In' is clicked on
+
+16-01-2024T17:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login testcase/Page_CaringConnections-v-1.17/button_Sign In' is clicked on
+
+16-01-2024T17:14:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2024T17:14:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-01-2024T17:14:34 - [TEST_SUITE][PASSED] - login test suit: Test Cases/Login testcase/login TC-01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
