@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_3. Your ideal expectations from a  Companion</name>
+   <tag></tag>
+   <elementGuidId>e135462c-8b7f-448b-b6f4-bd9ed538681e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>44eaa7d9-0ec4-4927-8685-371e4353ffa9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0</value>
+      <webElementGuid>bc240bb5-e81c-4080-aaa3-920752cf4492</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3. Your ideal expectations from a  Companion</value>
+      <webElementGuid>d3e64f74-9c0b-4a3f-bf89-085ae4300c92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;px-2&quot;]/div[@class=&quot;row p-0&quot;]/div[@class=&quot;col-12 col-md-6 p-0&quot;]/p[@class=&quot;m-0&quot;]</value>
+      <webElementGuid>d8c050c8-b13e-4d68-b759-741b07a80265</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div[3]/p</value>
+      <webElementGuid>238dd234-24de-4095-9919-d30362743d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>7ae530c8-c658-488d-8f8e-5bd2df90c1f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '3. Your ideal expectations from a  Companion' or . = '3. Your ideal expectations from a  Companion')]</value>
+      <webElementGuid>ac3c1cfe-0b63-44a9-b793-894784665414</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

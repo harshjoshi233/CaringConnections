@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+senior sinup test suit,Chrome 120.0.0.0,,,17-01-2024 16:35:08,17-01-2024 16:35:59,50.761s,FAILED
+,,,,,,,
+Test Cases/senior sinup/sinup TC-01,Chrome 120.0.0.0,,,17-01-2024 16:35:45,17-01-2024 16:35:59,14.053s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,17-01-2024 16:35:45,17-01-2024 16:35:45,0.630s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 120.0.0.0,,,17-01-2024 16:35:45,17-01-2024 16:35:59,13.283s,PASSED
+"click(findTestObject(""Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/button_Sign Up""))",Chrome 120.0.0.0,,,17-01-2024 16:35:59,17-01-2024 16:35:59,0.127s,FAILED

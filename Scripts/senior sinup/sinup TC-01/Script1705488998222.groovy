@@ -21,12 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-WebUI.setText(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/input_username'), 'harshjo2344@gmail.com')
+WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/button_Sign Up'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/input_password'), 
+WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_name'), 'sam jo')
+
+WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_zipcode'), '452001')
+
+WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_username'), 'sam223@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_password'), 
     'QmrIyMB454Sq0s0w1zzgnQ==')
 
-WebUI.click(findTestObject('Object Repository/login testcase/Page_CaringConnections-v-1.17/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_role'))
+
+WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/button_Sign Up_1'))
+
+WebUI.verifyElementPresent(findTestObject('senior sinup testcase/Page_CaringConnections-v-1.17/p_3. Your ideal expectations from a  Companion'), 
+    0)
 
 WebUI.closeBrowser()
 

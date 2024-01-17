@@ -21,16 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-WebUI.setText(findTestObject('Object Repository/logout testcase/Page_CaringConnections-v-1.17/input_username'), 'harshjo2344@gmail.com')
+WebUI.setText(findTestObject('Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_username'), 'harshjo2344@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/logout testcase/Page_CaringConnections-v-1.17/input_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_password'), 
     'QmrIyMB454Sq0s0w1zzgnQ==')
 
-WebUI.click(findTestObject('Object Repository/logout testcase/Page_CaringConnections-v-1.17/button_Sign In'))
-
-WebUI.verifyElementPresent(findTestObject('logout testcase/Page_CaringConnections-v-1.17/img'), 0)
-
-WebUI.click(findTestObject('Object Repository/logout testcase/Page_CaringConnections-v-1.17/img'))
+WebUI.click(findTestObject('Object Repository/senior login testcase/Page_CaringConnections-v-1.17/button_Sign In'))
 
 WebUI.closeBrowser()
 
