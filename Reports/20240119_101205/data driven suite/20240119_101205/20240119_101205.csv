@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+data driven suite,Chrome 120.0.0.0,,,19-01-2024 10:12:08,19-01-2024 10:14:36,2m - 27.957s,FAILED
+,,,,,,,
+Test Cases/Senior login/login TC-01 - Copy,Chrome 120.0.0.0,,,19-01-2024 10:12:51,19-01-2024 10:13:05,14.439s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 10:12:51,19-01-2024 10:12:52,0.723s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 120.0.0.0,,,19-01-2024 10:12:52,19-01-2024 10:13:03,11.687s,PASSED
+"setText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_username""), Username)",Chrome 120.0.0.0,,,19-01-2024 10:13:03,19-01-2024 10:13:05,1.848s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_password""), Password)",Chrome 120.0.0.0,,,19-01-2024 10:13:05,19-01-2024 10:13:05,0.165s,FAILED
+,,,,,,,
+Test Cases/Senior login/login TC-01 - Copy,Chrome 120.0.0.0,,,19-01-2024 10:13:42,19-01-2024 10:13:52,10.490s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 10:13:42,19-01-2024 10:13:43,0.737s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 120.0.0.0,,,19-01-2024 10:13:43,19-01-2024 10:13:51,7.762s,PASSED
+"setText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_username""), Username)",Chrome 120.0.0.0,,,19-01-2024 10:13:51,19-01-2024 10:13:52,1.858s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_password""), Password)",Chrome 120.0.0.0,,,19-01-2024 10:13:52,19-01-2024 10:13:52,0.120s,FAILED
+,,,,,,,
+Test Cases/Senior login/login TC-01 - Copy,Chrome 120.0.0.0,,,19-01-2024 10:14:29,19-01-2024 10:14:36,7.313s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 10:14:29,19-01-2024 10:14:30,0.755s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 120.0.0.0,,,19-01-2024 10:14:30,19-01-2024 10:14:34,4.928s,PASSED
+"setText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_username""), Username)",Chrome 120.0.0.0,,,19-01-2024 10:14:34,19-01-2024 10:14:36,1.478s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/senior login testcase/Page_CaringConnections-v-1.17/input_password""), Password)",Chrome 120.0.0.0,,,19-01-2024 10:14:36,19-01-2024 10:14:36,0.141s,FAILED

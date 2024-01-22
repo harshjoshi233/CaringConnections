@@ -17,27 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('recall login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/button_Sign Up'))
-
-WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_name'), 'sam jo')
-
-WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_zipcode'), '452001')
-
-WebUI.setText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_username'), 'sam2223@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_password'), 
-    'QmrIyMB454Sq0s0w1zzgnQ==')
-
-WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/input_role'))
-
-WebUI.click(findTestObject('Object Repository/senior sinup testcase/Page_CaringConnections-v-1.17/button_Sign Up_1'))
-
-WebUI.verifyElementPresent(findTestObject('senior sinup testcase/Page_CaringConnections-v-1.17/p_3. Your ideal expectations from a  Companion'), 
+WebUI.waitForElementClickable(findTestObject('Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest'), 
     0)
 
-WebUI.closeBrowser()
+WebUI.doubleClick(findTestObject('Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest'))
+
+WebUI.setText(findTestObject('Object Repository/Edit interest/Page_CaringConnections-v-1.17/textarea_hobbies'), 'I like activities like exercise, jumping, bowling and gymming exercise i also like dancing')
+
+WebUI.click(findTestObject('Object Repository/Edit interest/Page_CaringConnections-v-1.17/button_Next'))
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="recall login" time="19.716" tests="1" failures="0" errors="0">
+   <testsuite name="recall login" tests="1" failures="0" errors="0" time="19.716" skipped="0" timestamp="19-01-2024T17:24:01" hostname="HarshJoshi - PSDLAP287" id="Test Suites/recall login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HarshJoshi\\git\\Caringdemo\\CaringConnections\\Reports\\20240119_172358\\recall login\\20240119_172358"/>
+         <property name="logFiles" value="C:\\Users\\HarshJoshi\\git\\Caringdemo\\CaringConnections\\Reports\\20240119_172358\\recall login\\20240119_172358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HarshJoshi - PSDLAP287"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="78d0f5e696373d624e47530e98257b65"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/recall login/Edit interest" time="19.554" classname="Test Cases/recall login/Edit interest" status="PASSED">
+         <system-out><![CDATA[19-01-2024T17:24:01 - [TEST_CASE][PASSED] - Test Cases/recall login/Edit interest: Test Cases/recall login/Edit interest
+
+19-01-2024T17:24:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("recall login/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/recall login/login' successfully
+
+19-01-2024T17:24:01 - [TEST_CASE][PASSED] - Test Cases/recall login/login: Test Cases/recall login/login
+
+19-01-2024T17:24:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-01-2024T17:24:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-01-2024T17:24:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-01-2024T17:24:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-01-2024T17:24:03 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+19-01-2024T17:24:08 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+19-01-2024T17:24:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/recall login/Page_CaringConnections-v-1.17/input_username"), "john23@gmail.com"): Text 'john23@gmail.com' is set on object 'Object Repository/recall login/Page_CaringConnections-v-1.17/input_username'
+
+19-01-2024T17:24:09 - [MESSAGE][PASSED] - Text 'john23@gmail.com' is set on object 'Object Repository/recall login/Page_CaringConnections-v-1.17/input_username'
+
+19-01-2024T17:24:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/recall login/Page_CaringConnections-v-1.17/input_password"), "QmrIyMB454Sq0s0w1zzgnQ=="): Text ****** has been set on object 'Object Repository/recall login/Page_CaringConnections-v-1.17/input_password'
+
+19-01-2024T17:24:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/recall login/Page_CaringConnections-v-1.17/input_password'
+
+19-01-2024T17:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/recall login/Page_CaringConnections-v-1.17/button_Sign In")): Object: 'Object Repository/recall login/Page_CaringConnections-v-1.17/button_Sign In' is clicked on
+
+19-01-2024T17:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/recall login/Page_CaringConnections-v-1.17/button_Sign In' is clicked on
+
+19-01-2024T17:24:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/recall login/login' successfully
+
+19-01-2024T17:24:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest"), 0): Object 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest' is clickable
+
+19-01-2024T17:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-01-2024T17:24:16 - [MESSAGE][PASSED] - Object 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest' is clickable
+
+19-01-2024T17:24:16 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest")): Object: 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest' is double clicked on
+
+19-01-2024T17:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest' is double clicked on
+
+19-01-2024T17:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit interest/Page_CaringConnections-v-1.17/textarea_hobbies"), "I like activities like exercise, jumping, bowling and gymming exercise i also like dancing"): Text 'I like activities like exercise, jumping, bowling and gymming exercise i also like dancing' is set on object 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/textarea_hobbies'
+
+19-01-2024T17:24:18 - [MESSAGE][PASSED] - Text 'I like activities like exercise, jumping, bowling and gymming exercise i also like dancing' is set on object 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/textarea_hobbies'
+
+19-01-2024T17:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit interest/Page_CaringConnections-v-1.17/button_Next")): Object: 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/button_Next' is clicked on
+
+19-01-2024T17:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit interest/Page_CaringConnections-v-1.17/button_Next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-01-2024T17:24:01 - [TEST_SUITE][PASSED] - recall login: Test Cases/recall login/Edit interest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+recall login,Chrome 120.0.0.0,,,19-01-2024 17:24:01,19-01-2024 17:24:20,19.716s,PASSED
+,,,,,,,
+Test Cases/recall login/Edit interest,Chrome 120.0.0.0,,,19-01-2024 17:24:01,19-01-2024 17:24:20,19.554s,PASSED
+"callTestCase(findTestCase(""recall login/login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,19-01-2024 17:24:01,19-01-2024 17:24:13,11.512s,PASSED
+"waitForElementClickable(findTestObject(""Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest""), 0)",Chrome 120.0.0.0,,,19-01-2024 17:24:13,19-01-2024 17:24:16,3.820s,PASSED
+"doubleClick(findTestObject(""Object Repository/Edit interest/Page_CaringConnections-v-1.17/h1_2. Hobbies and Activities of Interest""))",Chrome 120.0.0.0,,,19-01-2024 17:24:16,19-01-2024 17:24:17,0.491s,PASSED
+"setText(findTestObject(""Object Repository/Edit interest/Page_CaringConnections-v-1.17/textarea_hobbies""), ""I like activities like exercise, jumping, bowling and gymming exercise i also like dancing"")",Chrome 120.0.0.0,,,19-01-2024 17:24:17,19-01-2024 17:24:18,0.750s,PASSED
+"click(findTestObject(""Object Repository/Edit interest/Page_CaringConnections-v-1.17/button_Next""))",Chrome 120.0.0.0,,,19-01-2024 17:24:18,19-01-2024 17:24:20,2.763s,PASSED

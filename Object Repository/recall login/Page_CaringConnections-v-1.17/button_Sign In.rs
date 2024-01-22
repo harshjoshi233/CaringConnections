@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Sign In</name>
+   <tag></tag>
+   <elementGuidId>5ca0811c-99d5-47d9-8302-620a1a83cce6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>76ecf5dc-e785-4e9a-a1d6-6722de6c5d88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> primary login-button</value>
+      <webElementGuid>05607fbc-9a89-4c98-9372-1df4aecc3898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0bd6e0bd-ba9d-4711-bd00-327f7251f599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign In</value>
+      <webElementGuid>7384310c-bbd6-4ae1-b68b-6278caee44d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 login-container mx-auto mx-md-0&quot;]/div[@class=&quot;login-inner-container&quot;]/div[@class=&quot;login-sign-in-container&quot;]/form[@class=&quot;w-100&quot;]/div[@class=&quot;login-input-container&quot;]/div[@class=&quot;input-groups&quot;]/button[@class=&quot;primary login-button&quot;]</value>
+      <webElementGuid>438c4741-ef78-47a9-bc47-1b9389d7b8e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>ca8466cc-a49e-457a-a5b7-1fb2c66a0354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/form/div/div/button</value>
+      <webElementGuid>986f84b8-e160-4438-a7be-89cfaf8838d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>ba7e4045-7876-4ea4-841d-bec3a1ef6b03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>f739c48b-08ed-4a9f-b657-e0dfa0bd1d1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
